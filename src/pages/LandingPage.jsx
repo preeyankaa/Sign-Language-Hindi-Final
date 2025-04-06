@@ -9,14 +9,6 @@ function LandingPage() {
 
   return (
     <div className={`min-h-screen ${darkMode ? 'bg-gray-900 text-white' : 'bg-blue-50 text-gray-900'}`}>
-      <nav className="p-4 flex justify-end">
-        <button
-          onClick={toggleTheme}
-          className={`p-2 rounded-full ${darkMode ? 'bg-gray-800' : 'bg-white'} shadow-lg`}
-        >
-          {darkMode ? <FaSun className="text-yellow-400" /> : <FaMoon className="text-gray-700" />}
-        </button>
-      </nav>
       
       <main className="container mx-auto px-4 pt-20">
         <div className="max-w-4xl mx-auto text-center">
