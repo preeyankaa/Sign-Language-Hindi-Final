@@ -8,9 +8,9 @@ function About() {
   const [showThemeDropdown, setShowThemeDropdown] = React.useState(false);
 
   const teamMembers = [
-    { name: 'Pratik Avhad', role: 'CEO', image: '/images/priya.jpg' },
-    { name: 'Priyanka Bhandari', role: 'CTO', image: '/images/priya.jpg' },
-    { name: 'Swarup Kakade', role: 'CEO', image: '/images/priya.jpg' },
+    { name: 'Pratik Avhad', role: 'Worked on backend development and system optimization.', image: '/images/priya.jpg' },
+    { name: 'Priyanka Bhandari', role: 'Designed the interactive learning modules and user-friendly website interface.', image: '/images/priya.jpg' },
+    { name: 'Swarup Kakade', role: ' Developed real-time sign language detection and NLP integration.', image: '/images/priya.jpg' },
   ];
 
   return (
@@ -24,7 +24,6 @@ function About() {
               <Link to="/dashboard" className="hover:text-blue-600 transition-colors">Dashboard</Link>
               <Link to="/detect" className="hover:text-blue-600 transition-colors">Detect</Link>
               <Link to="/learn" className="hover:text-blue-600 transition-colors">Learn</Link>
-              <Link to="/assistant" className="hover:text-blue-600 transition-colors">Assistant</Link>
               <Link to="/practice" className="hover:text-blue-600 transition-colors">Practice</Link>
               <Link to="/about" className="hover:text-blue-600 transition-colors">About</Link>
             </div>
@@ -78,21 +77,20 @@ function About() {
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-6">Our <span className="text-blue-600">Mission</span></h2>
             <p className="text-lg mb-8">
-              SignWave is a cutting-edge 3D sign language interpreter designed to bridge communication gaps and make sign language accessible to everyone. Our mission is to empower both the hearing and deaf communities by providing intuitive tools for learning, practicing, and communicating through sign language.
-            </p>
+            Our mission is to bridge the communication gap by making Indian Sign Language (ISL) accessible through technology. We aim to empower individuals with real-time sign detection, interactive learning, and a supportive community, ensuring inclusivity and ease of communication for all.            </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className={`p-6 rounded-lg ${darkMode ? 'bg-gray-800' : 'bg-white'} shadow-lg`}>
                 <h3 className="text-xl font-semibold mb-3">Accessibility</h3>
-                <p>Making sign language accessible to everyone through technology.</p>
+                <p>We ensure equal access to Indian Sign Language learning through real-time translation, interactive practice tools, and inclusive communication features.</p>
               </div>
               <div className={`p-6 rounded-lg ${darkMode ? 'bg-gray-800' : 'bg-white'} shadow-lg`}>
                 <h3 className="text-xl font-semibold mb-3">Education</h3>
-                <p>Providing comprehensive learning tools for sign language education.</p>
+                <p>Our platform offers structured lessons, real-time feedback, and hands-on practice to help users master Indian Sign Language easily.</p>
               </div>
               <div className={`p-6 rounded-lg ${darkMode ? 'bg-gray-800' : 'bg-white'} shadow-lg`}>
                 <h3 className="text-xl font-semibold mb-3">Innovation</h3>
-                <p>Using 3D technology to create realistic and accurate sign language representations.</p>
+                <p>We leverage AI, NLP, and computer vision to provide real-time sign detection, video call integration, and interactive learning experiences.</p>
               </div>
             </div>
           </section>

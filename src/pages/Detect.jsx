@@ -19,7 +19,6 @@ function Detect() {
               <Link to="/dashboard" className="hover:text-blue-600 transition-colors">Dashboard</Link>
               <Link to="/detect" className="hover:text-blue-600 transition-colors">Detect</Link>
               <Link to="/learn" className="hover:text-blue-600 transition-colors">Learn</Link>
-              <Link to="/assistant" className="hover:text-blue-600 transition-colors">Assistant</Link>
               <Link to="/practice" className="hover:text-blue-600 transition-colors">Practice</Link>
               <Link to="/about" className="hover:text-blue-600 transition-colors">About</Link>
             </div>
@@ -103,8 +102,8 @@ function Detect() {
         <div className="text-center mt-8">
           <p className="text-sm">Change Language: 
             <select className={`ml-2 px-2 py-1 rounded ${darkMode ? 'bg-gray-700' : 'bg-white'}`}>
-              <option value="en">EN</option>
-              <option value="hi">HI</option>
+              <option value="en">English</option>
+              <option value="hi">Hindi</option>
             </select>
           </p>
         </div>

@@ -136,7 +136,6 @@ function Dashboard() {
                 <option value="en">English</option>
                 <option value="hi">Hindi</option>
               </select>
-              <button className="text-blue-600 hover:text-blue-700">Contact Us</button>
             </div>
           </div>
           <div className="mt-4 text-center text-sm opacity-75">
